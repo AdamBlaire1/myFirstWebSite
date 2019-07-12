@@ -1,0 +1,17 @@
+@media (max-width: 576px) {
+    img {
+        display: flex;
+        width: 250px;
+        height: auto;
+    }
+}
+
+.container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+html {
+    background-color: green;
+}
