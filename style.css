@@ -1,0 +1,50 @@
+@media (max-width: 550px) {
+    body {
+        background: rgb(11, 8, 172);
+    }
+    img {
+        display: flex;
+        width: 200px;
+        height: auto;
+    }
+}
+
+li {
+    font-size: 35px;
+}
+
+#A {
+    color: #CBCB41;
+}
+
+#B {
+    color: #BE7B4A;
+}
+
+#C {
+    color: #602CAC;
+}
+
+#D {
+    color: #4DCAC5;
+}
+
+#E {
+    color: #9CDCFE;
+}
+
+#F {
+    color: #F9AE57;
+}
+
+#G {
+    color: #3275AF;
+}
+
+#H {
+    color: #CE3F5C;
+}
+
+h6 {
+    color: #9CDCFE;
+}
