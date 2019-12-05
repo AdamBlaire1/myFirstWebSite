@@ -1,2 +1,3 @@
 # myFirstWebSite
 My bio web page is posted here
+Go to adamblaire.com to view webpage
