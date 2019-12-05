@@ -1,8 +1,8 @@
-$(document).ready(function() {
+$(document).ready(function () {
     var size = $("a").css("fontSize");
-    $("a").hover(function() {
-        $(this).css("fontSize", "30px", );
-    }, function() {
+    $("a").hover(function () {
+        $(this).css("fontSize", "30px");
+    }, function () {
         $(this).css("fontSize", size);
     });
 
@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 function loadDoc() {
     const xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+    xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             gotRepos(this.responseText)
         }

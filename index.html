@@ -1,7 +1,9 @@
-<!DOCTYPE html> >
-<html>
+<!DOCTYPE html>
+<html lang=en>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hands On 10</title>
     <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-w+8Gqjk9Cuo6XH9HKHG5t5I1VR4YBNdPt/29vwgfZR485eoEJZ8rJRbm3TR32P6k" crossorigin="anonymous">
@@ -29,9 +31,9 @@
 
 
     <div class="container text-center">
-        <img src="Js.PNG" class="col-sm-4 bg-warning" />
-        <img src="PicOfme.jpg" class="col-sm-3 bg-warning" />
-        <img src="ComputerPic.PNG" class="col-sm-4 bg-warning" />
+        <img src="Pics/Js.PNG" alt="JS icon" class="col-sm-4 bg-warning" />
+        <img src="Pics/PicOfme.jpg" alt="Adam PicOfme" class="col-sm-3 bg-warning" />
+        <img src="Pics/ComputerPic.PNG" alt="Computer pic" class="col-sm-4 bg-warning" />
         <h4 class="bg-danger">Click! links below.</h4>
         <br>
         <a href="https://github.com/AdamBlaire1" class="col-sm-5 btn bg-warning"> My GitHub Link!</a>
@@ -43,30 +45,31 @@
         <br>
         <a href="https://www.facebook.com/adam.blaire" class="col-sm-5 btn bg-info">My Facebook Link!</a>
         <br>
+    
     </div>
     <br>
     <div class="container">
         <h4 class="bg-success" id="skills">Tech-related skills!</h4>
         <br>
-        <div class="row justify-content-start">
+        <ul class="row justify-content-start">
             <li class="col-5" id="A">JavaScript</li>
             <li class="col-5" id="B">Bootstrap</li>
             <li class="col-5" id="C">FlexBox</li>
             <li class="col-5" id="G">SQL</li>
-        </div>
-        <div class="row justify-content-center">
+        </ul>
+        <ul class="row justify-content-center">
             <li class="col-5" id="D">Jquery</li>
             <li class="col-5" id="H">NoSQL</li>
             <li class="col-5" id="F">CSS</li>
             <li class="col-5" id="E">JSON</li>
-        </div>
+        </ul>
         <br>
     </div>
     <div class="container">
         <h5 class="bg-primary">GitHub repositories!</h5>
-        <button>
-            <div id="GitHub"></div>
-        </button>
+
+        <div id="GitHub"></div>
+
         <!--<hr style="border: 1px white solid" />
         <h6>My repos listed as a JSON objects:</h6>
         <pre id="raw-GitHub">Results will go here</pre>-->
@@ -76,14 +79,8 @@
         <footer class="container text-center">
             <h3 class="bg-info text-white">My contact information!</h3>
             <div class="bg-danger">
-                <li>
-                    <i style='font-size:24px' class='fas'>&#xf098;</i>
-                    <large>Phone Number: 626-734-9031</large>
-                </li>
-                <li>
-                    <i class="material-icons">&#xe0be;</i>
-                    <large>Email: Adam.blaire@gmail.com</large>
-                </li>
+                <i class="material-icons">email</i>
+                Email: Adam.blaire@gmail.com
             </div>
         </footer>
     </div>

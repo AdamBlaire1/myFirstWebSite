@@ -1,16 +1,13 @@
 @media (max-width: 550px) {
-    body {
-        background: rgb(11, 8, 172);
-    }
+
     img {
-        display: flex;
-        width: 200px;
-        height: auto;
+         height: auto;
+         max-width: 100%;
     }
 }
 
 li {
-    font-size: 35px;
+    font-size: 20px;
 }
 
 #A {
